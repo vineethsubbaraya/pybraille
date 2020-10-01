@@ -22,7 +22,9 @@ setup(
   author_email='josh@edublocks.org',
   license='MIT', 
   #classifiers=classifiers,
-  keywords=['python', 'braille', 'text to braille'], 
+  keywords=['python', 'braille', 'text to braille'],
+  py_modules=["main"],
+  package_dir={'': 'src'}, 
   packages=find_packages(),
   install_requires=['']
 )
