@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pybraille
+Version: 0.0.1
+Summary: A library to conver text to 6-dot braille pattern(Grade 1)
+Home-page: UNKNOWN
+Author: Vineeth Subbaraya
+Author-email: josh@edublocks.org
+License: MIT
+Description: UNKNOWN
+Keywords: python,braille,text to braille
+Platform: UNKNOWN
