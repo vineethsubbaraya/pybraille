@@ -8,6 +8,7 @@ setup(
   version='0.1.0',
   description='A library to conver text to 6-dot braille pattern(Grade 1)',
   long_description=long_description,
+  long_description_content_type="text/markdown",
   url='https://github.com/vineethsubbaraya/pybraille',  
   author='Vineeth Subbaraya',
   author_email='vsubbaraya033@gmail.com',
