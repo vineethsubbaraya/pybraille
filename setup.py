@@ -11,20 +11,22 @@ classifiers = [
   'Programming Language :: Python :: 3.7',
   'Programming Language :: Python :: 3.8',
 ]
+
+with open("README.md", "r") as rd:
+  long_description = rd.read()
  
 setup(
   name='pybraille',
   version='0.0.1',
   description='A library to conver text to 6-dot braille pattern(Grade 1)',
-  #long_description=open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-  #url='',  
+  long_description=long_description,
+  long_description_content_type="text/markdown",
+  url='https://github.com/vineethsubbaraya/pybraille',  
   author='Vineeth Subbaraya',
-  author_email='josh@edublocks.org',
+  author_email='vsubbaraya033@gmail.com',
   license='MIT', 
-  #classifiers=classifiers,
+  classifiers=classifiers,
   keywords=['python', 'braille', 'text to braille'],
-  py_modules=["main"],
-  package_dir={'': 'src'}, 
   packages=find_packages(),
   install_requires=['']
 )

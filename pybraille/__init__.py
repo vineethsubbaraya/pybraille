@@ -1,6 +1,6 @@
 __version__ = "0.1.0"
 
-from main import convertText, convertFile
+from pybraille.main import convertText, convertFile
 
 """
 - convertText
