@@ -5,7 +5,7 @@ with open("README.md", "r") as rd:
  
 setup(
   name='pybraille',
-  version='0.0.1',
+  version='0.1.0',
   description='A library to conver text to 6-dot braille pattern(Grade 1)',
   long_description=long_description,
   url='https://github.com/vineethsubbaraya/pybraille',  
