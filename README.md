@@ -18,7 +18,7 @@ from pybraille import convertText
 print(convertText("hello"))
 >>> ⠓⠑⠇⠇⠕
 
-print(convertText("filename.txt")) #eg: tests/sample.txt
+print(convertFile("filename.txt")) #eg: tests/sample.txt
 >>> ⠠⠞⠓⠊⠎ ⠙⠊⠗⠑⠉⠞⠕⠗⠽ ⠉⠕⠝⠞⠁⠊⠝⠎ ⠞⠑⠎⠞ ⠋⠊⠇⠑⠎⠲
 ```
 
